@@ -1,0 +1,40 @@
+
+/*importando tipografia*/
+@font-face{
+    font-family: "mi fuente";
+    src: url(../fonts/arial-narrow-bold.ttf);
+}
+
+
+
+.logo{
+    background-image: url(../img/logo_site.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 20%;
+    float: left;
+}
+
+.slogan{
+    float: left;
+    font-family: "mi fuente";
+    font-style: italic;
+    width: 40%;
+}
+
+.menu .glyphicon-ok{
+    padding: 0 10px 0 0;
+}
+
+.pie{
+    background-color: #F8F8F8;
+    border: 2px solid #F6F6F6;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0 0 0;
+    border-radius: 2px;
+}
+
+textarea{
+    resize: none;
+}
